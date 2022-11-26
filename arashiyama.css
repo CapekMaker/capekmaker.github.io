@@ -1,0 +1,102 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: rgb(16, 16, 16);
+    color: white;
+}
+
+header{
+    background-color: rgb(4, 46, 49);
+    margin: 0;
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: 28px;
+    text-align: center;
+}
+
+.titol{
+    font-size: 18px;
+    text-align: center;
+}
+
+.description_container{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding: 20px;
+    gap: 20px;
+}
+.banner{
+    background-size: cover;
+    background-position: center center;
+    border: 3px rgb(220, 231, 18) solid;
+    border-radius: 5px;
+}
+
+.card{
+    background-color: rgb(55, 55, 51);
+    border: 3px rgb(220, 231, 18) solid;
+    border-radius: 5px;
+    height: 350px;
+    padding: 20px;
+}
+
+.text, h2{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.project_container{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+}
+
+.banner_horitzontal{
+    text-align: center;
+}
+
+.pixelart_container{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px;
+    gap: 20px;
+}
+
+.imatge{
+    background-color: rgb(55, 55, 51);
+    margin: 0 auto;
+    height: 128px;
+    width: 128px;
+    background-size: 128px;
+    background-position: center center;
+    border: 2px rgb(220, 231, 18) solid;
+    border-radius: 5px;
+}
+
+.player_container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.play{
+    background-color: rgb(90, 123, 58);
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin: 0 700px 0 700px;
+}
+
+footer{
+    background-color: rgb(4, 46, 49);
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
